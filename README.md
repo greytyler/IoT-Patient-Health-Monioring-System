@@ -24,7 +24,7 @@
 
 The Remote Patient Health Monitoring System is a web-based application designed to monitor and track the health indicators of patients remotely. It utilizes hardware components to measure various health parameters, and the results are displayed on a web interface, enabling healthcare professionals to monitor and analyze patient data from any location.
 
-![Hardware Components](images/hardware_components.png)
+![Hardware Components](hardware.png)
 
 ## Features
 
