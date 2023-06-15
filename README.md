@@ -2,7 +2,7 @@
  
 
 
-![Website Interface](../iotSnip.jpg)
+![Website Interface](iotSnip.jpg)
 
 ## Table of Contents
 
