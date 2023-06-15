@@ -1,0 +1,92 @@
+:root{
+    --navy: #110f1f;
+    --lightblue:#45eaff;
+    --greylight:#39404b;
+    --greydark:#292d33;
+    --greydarker:#1d1e22;
+    --creamson:#ff0d67;
+    --whitish:#d4d4d4;
+  }
+
+.navbar {
+    height: 3.8rem;
+    width: 78%;              /*FIXXXX*/
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color:rgb(57, 64, 75) ;
+    border-radius: 5px;
+    box-shadow: 2px 3px 12px 2px black;
+    position: fixed;      /*FIXXXX*/
+    z-index:3;
+}
+
+.navbar > div {
+    margin-right: 1rem;
+    box-shadow: none;
+}
+
+.nav-icon {
+    font-size: 1.5rem;
+    color: var(--lightblue);
+}
+
+.search {
+    height: 2rem;
+    width: 15rem;
+    margin-right: 5rem !important;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--lightblue);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.search input {
+    background: transparent;
+    width:85%;
+    margin-right: 10px;
+    color:var(--whitish);
+    border:none;
+}
+
+.search > .nav-icon {
+    color: var(--lightblue);
+    transition: .2s ease-in-out;
+}
+.search > .nav-icon:hover,.search > .nav-icon:focus{
+    transform: scale(1.2);
+}
+.search > .nav-icon:active{
+    color:var(--creamson);
+    transform: scale(0.85);
+}
+
+.notification > .indicator {
+    position: absolute;
+    height: 0.8rem;
+    width: 0.8rem;
+    top: 1.9rem;
+    margin-left: 0.7rem;
+    background-color: var(--creamson);
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+}
+
+.user > span {
+    padding-right: 8px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.user > img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border:2px solid var(--lightblue)
+}

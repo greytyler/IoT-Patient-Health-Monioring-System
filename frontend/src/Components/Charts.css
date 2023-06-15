@@ -1,0 +1,44 @@
+:root{
+    --navy: #110f1f;
+    --lightblue:#45eaff;
+    --greylight:#39404b;
+    --greydark:#292d33;
+    --greydarker:#1d1e22;
+    --creamson:#ff0d67;
+    --whitish:#d4d4d4;
+  }
+
+.charts {
+    margin: 1rem;
+}
+
+.charts > div {
+    margin: 30px;
+    padding: 1.2rem;
+    background-color: var(--greydark);
+    color: var(--whitish);
+    border-radius: 10px;
+    box-shadow: 0 0.2px 9px 0 var(--lightblue);
+}
+.charts h2 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading .icon {
+    color: var(--whitish);
+    font-size:1.5rem;
+    margin-left: 0.5rem;
+}
+
+.heading > h2 {
+    background-image: linear-gradient(to right,var(--lightblue),var(--whitish),var(--lightblue),var(--whitish)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}

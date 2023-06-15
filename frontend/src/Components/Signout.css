@@ -1,0 +1,104 @@
+:root{
+    --greydarker:#110f1f;
+    --lightblu:#45eaff;
+    --greylight:#39404b;
+        --greydark:#292d33;
+      --greydarker:#1d1e22;
+} 
+*{transition:.3s ease-in-out}
+
+#figure{
+    height:7rem;
+    position:relative;
+    margin:0 0 2rem 0;
+}
+#figure img{
+    width:7rem;
+    height:7rem;
+    border-radius:50%;
+    border:3px solid var(--lightblu);
+    filter:sepia(40%) invert(20px);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+} 
+#logout-container{
+    background:var(--greydarker);
+    background-size:100% 100%;
+    padding:2rem;
+    height:100vh;
+    border-radius:2px solid greydarker;
+}
+#logout-container h2{
+    text-align:center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom:3rem;
+    background-image: linear-gradient(to right, #0094c5, white,#2dffb3c2) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#logout-container form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin: 0 auto;
+    padding:4rem 0;
+    background:rgb(0,0,0,0.7) url(../data/images/logBg.jpg) no-repeat;
+    background-size:100% 100%;
+    background-blend-mode:darken;
+    border-radius:1rem;
+    background-color:rgb(0,29,81,0.5);
+    max-width:25rem;
+    box-shadow:.5px .5px 3px 1px var(--lightblu);
+}
+#logout-container form input:not(#logout-btn){
+    margin:1rem 0;
+    padding:.5rem 1rem;
+    border-top-style:hidden;
+    border-left-style:hidden;
+    border-right-style: hidden;
+    border-bottom:2px solid var(--lightblu);
+    background:transparent;
+} 
+
+#logout-container input::placeholder{
+    color:white;
+}
+
+#logout-container form span a{
+    text-decoration:none;
+    color:var(--lightblu);
+}
+
+#logout-btn{
+    padding:.7rem 2rem !important;
+    font-size:1rem;
+    background:var(--greydarker);
+    color:var(--lightblu);
+    border-radius:10px;
+    border:none;
+}
+
+#logout-btn:hover {
+    background: var(--greydark);
+}
+
+#logout-btn:active{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px 1px var(--lightblu);
+    color:var(--greydarker);
+}
+
+#statement{
+    margin:5rem 0 0 0;
+    text-transform:capitalize;
+    color:var(--lightblu);
+    text-align: center;
+    padding:2rem;
+    background-image: linear-gradient(to right, #0094c5, white,#2dffb3c2) ;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

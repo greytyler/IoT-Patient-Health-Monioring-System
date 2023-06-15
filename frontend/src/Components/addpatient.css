@@ -1,0 +1,53 @@
+:root {
+    --navy: #110f1f;
+    --lightblue: #45eaff;
+    --greylight: #39404b;
+    --greydark: #292d33;
+    --greydarker: #1d1e22;
+    --creamson: #ff0d67;
+    --whitish: #d4d4d4;
+  }
+
+
+
+.add form {
+    display : flex;
+    flex-direction : column;
+    width: 40%;
+    justify-content: center;
+    margin :  auto;
+    text-align:center;
+
+}
+.add form input{
+    height : 35px;
+    margin:7px;
+    outline : none;
+    border-radius:10px;
+    border:2px solid #fff;
+    background-color :#110f1f;
+    color : #fff;
+}
+.add form input::placeholder {
+    text-align : center;
+    color:#fff;
+}
+ .add-btn {
+    width : 100px;
+    height:35px;
+    justify-content:center;
+    align-items:center;
+    outline : none;
+    background-color: #45eaff;
+    border:none;
+    border-radius:10px;
+    right: 100px;
+    margin:auto;
+}
+
+.add-btn:hover {
+    background-color : #110f1f;
+    color:#fff;
+}
+
+
