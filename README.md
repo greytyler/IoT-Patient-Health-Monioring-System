@@ -120,6 +120,9 @@ Push to the branch: git push origin feature/your-feature-name.
 
 Submit a pull request. 
 
+##### Acknowledgements
+Thanks to Saidi Agibu for contributing to this project. 
+
 #### <span style="color: blue;">License</span>
 
 This project is licensed under the MIT License. You are free to use it however you want, including modifying, distributing, or selling it. However, please note that the original authors, including greytyler, are not liable for any consequences arising from the use of this project. 
